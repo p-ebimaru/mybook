@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 html {
   font-size: 100%;
 }
@@ -45,7 +44,6 @@ li {
   font-size: 0.750rem;
   display: inline-block;
 }
-
 /* ヘッダー */
 header {
   height: 100vh;
@@ -62,9 +60,7 @@ header h1 {
   top: 30px;
   right: 30px;
 }
-
 /* magajm */
-
 .article {
   text-align: center;
   margin-bottom: 80px;
@@ -99,7 +95,6 @@ header h1 {
   font-size: 1.25rem;
   margin-bottom: 2px;
 }
-
 /* fashion */
 .fashion {
   background-image: url(../img/fashion.jpg);
@@ -111,7 +106,6 @@ header h1 {
   margin-bottom: 80px;
   padding-top: 60px;
 }
-
 /* catalog */
 .catalog {
   background-color: #f5f5f5;
@@ -138,8 +132,6 @@ header h1 {
   padding-bottom: 25px;
   text-align: left;
 }
-
-
 /* footer */
 footer {
   background: #deb887;
@@ -155,7 +147,6 @@ footer .item {
   width: 33%;
   padding-top: 100px;
   padding-bottom: 100px;
-  
 }
 
 footer .item img {
@@ -179,8 +170,6 @@ footer .item li::before {
   margin-right: 5px;
 }
 
-
-
 .footer-copy {
   background: #ffffff;
   color: #000000;
@@ -191,7 +180,6 @@ footer .item li::before {
 
 /* SP版 */
 @media screen and (max-width: 896px) {
-
   /* magajm */
   section .container {
     flex-direction: column;
